@@ -1,0 +1,46 @@
+/* gloable styls  */
+html{
+    font-size: 10px;
+}
+*,
+ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Be Vietnam', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* gloable styls end */
+/* buttons styles start  */
+.btn{
+    padding: 10px 19px;
+   
+}
+.btn-pirmary{
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 13px 39px hsl(12deg 80% 81%);
+
+    
+}
+/* buttons styles end  */
+/* navbar style start */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+.navbar-nav_list{
+    display: flex;
+    list-style: none;
+    font-size: 1.8rem;
+}
+.navbar-nav_list--item:not(:last-child){
+    margin-right: 3rem;
+}

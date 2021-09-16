@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Manage landing page</title>
+  <link rel="stylesheet" href="./css/main.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,12 +18,25 @@
   </style>
 </head>
 <body>
-
-  Pricing
-  Product
-  About Us
-  Careers
-  Community
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <a href="#">
+        <img src="images/logo.svg" alt="manage logo">
+      </a>
+    </div>
+    <div class="navbar-nav">
+      <ul class="navbar-nav_list">
+        <li class="navbar-nav_list--item">Pricing</li>
+        <li class="navbar-nav_list--item">Product</li>
+        <li class="navbar-nav_list--item">About Us</li>
+        <li class="navbar-nav_list--item">Careers</li>
+        <li class="navbar-nav_list--item"> Community</li>
+      </ul>
+    </div>
+    <div class="nav-actions">
+      <a  href="#" class="btn btn-pirmary">Get Started</a>
+    </div>
+  </nav>
 
   Get Started
 
