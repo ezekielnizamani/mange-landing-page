@@ -83,7 +83,10 @@ a{
         align-items: center;
  
         justify-content: center;
-        top: 106px;
+        left: 50%;
+        top: 50%;
+        font-weight: 500;
+        transform: translate(-50%,30%);
         font-weight: 500;
         display: none;
 
